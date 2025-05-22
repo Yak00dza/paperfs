@@ -17,6 +17,7 @@ Splitting of larger files into several pages will be added later.
 ### Syntax
 `fprint input_file.whatever output.pbm`
 ### Example
+Below you can see a text file encoded on paper with `fprint`.
 ![example](https://github.com/user-attachments/assets/c83cbb93-422a-4beb-a45f-374915795f93)
 
 ## What are the future plans?
