@@ -1,4 +1,4 @@
-#include "converts.h"
+#include "encode.h"
 
 FILE *file_to_image(FILE *file, char* output_name)
 {
@@ -13,7 +13,7 @@ FILE *file_to_image(FILE *file, char* output_name)
 	int current_byte = 0;
 
 	int max_bytes = properties.max_lines * properties.bytes_per_line;
-	
+
 	//first line is filled with ones for calibration
 	for (int i = 0; i < properties.bytes_per_line; ++i) {
 		write_byte_to_pixels((uint8_t) 0xFF, pixels, 0, i, &properties);

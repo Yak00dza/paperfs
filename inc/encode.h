@@ -1,5 +1,5 @@
-#ifndef CONVERTS_H
-#define CONVERTS H
+#ifndef ENCODE_H
+#define ENCODE_H
 
 #include <stdio.h>
 #include <stdint.h>
